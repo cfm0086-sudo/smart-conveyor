@@ -1,0 +1,27 @@
+# Drive calculation
+
+## Design parameters
+
+- Conveyor length: 1.2 m
+- Belt width: 300 mm
+- Maximum load: 20 kg
+- Belt speed: 0.3 m/s
+- Pulley diameter: 80 mm (initial assumption)
+
+## Pulley speed 线速度
+
+v = pi * D * n / 60
+
+n = 60 * 0.3 / (pi * 0.08)
+
+n = 71.6 rpm
+
+So the drive pulley should rotate at about 72 rpm.
+
+## Next step
+
+Calculate:
+- resistance force 牵引力F（需要多少力，才能把输送带拉起来）
+- required torque 所需扭矩 T=F*r
+- motor power 电机功率P P=Fv
+- gear ratio 减速比
