@@ -1,0 +1,43 @@
+# Geared Motor Selection
+
+## 1. Drive Requirements
+
+Based on the previous drive calculation, the preliminary requirements
+for the conveyor drive are:
+
+- Belt speed: 0.3 m/s
+- Drive pulley diameter: 80 mm
+- Required output speed: about 72 rpm
+- Theoretical torque: 2.11 Nm
+- Preliminary design torque: 3.72 Nm
+- Theoretical power: 15.8 W
+- Preliminary design power: 27.9 W
+
+The conveyor operates horizontally and transports a maximum load of 20 kg.
+## 2. Motor Selection Criteria
+
+The geared motor should meet the following criteria:
+
+- Motor power higher than the calculated design power
+- Output speed close to 72 rpm
+- Output torque higher than 3.72 Nm
+- Suitable gear ratio
+- Suitable mounting configuration for the conveyor
+- Sufficient service factor
+
+## 3. Candidate 1 - SEW-EURODRIVE R Series
+One suitable configuration found in the SEW DriveConfigurator was:
+
+- Type: R07DRN63MS4
+- Rated motor power: 0.12 kW
+- Output speed: 75 rpm
+- Output torque: 15 Nm
+- Gear ratio: 18.31
+- Motor speed: 1380 rpm
+- Service factor fB: 3.3
+
+The output speed of 75 rpm is close to the calculated target
+speed of approximately 72 rpm.
+
+The output torque of 15 Nm is also higher than the preliminary
+required design torque of 3.72 Nm.
