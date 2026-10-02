@@ -11,10 +11,6 @@ The main parameters of the conveyor are:
 - Conveyor type: Slider bed
 - Pulley diameter: 80 mm
 
-I selected a slider bed because the conveyor is relatively short and
-the maximum load is only 20 kg. The construction is also simpler than
-a roller bed.
-
 ## 2. Load Friction
 
 The weight force of the maximum load is:
@@ -25,9 +21,7 @@ F_G = 20 * 9.81 = 196.2 N
 
 For the first calculation, a friction coefficient of 0.25 is used.
 
-F_R,load = 0.25 * 196.2
-
-F_R,load = 49.05 N
+F_R,load = 0.25 * 196.2 = 49.05 N
 
 ## 3. Belt Friction
 
@@ -53,13 +47,11 @@ F_R,belt = 0.25 * 14.48 = 3.62 N
 
 The total resistance force in this simplified model is:
 
-F_R = 49.05 + 3.62
-
-F_R = 52.67 N
+F_R = 49.05 + 3.62 = 52.67 N
 
 ## 5. Pulley Torque
 
-The pulley diameter is 80 mm.
+The pulley diameter is D = 80 mm.
 
 r = 0.04 m
 
@@ -71,7 +63,7 @@ T = 52.67 * 0.04
 
 T = 2.11 Nm
 
-For the preliminary design, I use a design factor of 1.5 and
+For the preliminary design, I use a design factor of S = 1.5 and
 a transmission efficiency of 0.85.
 
 T_design = (2.11 * 1.5) / 0.85
