@@ -5,7 +5,7 @@
 - Preliminary design torque: 3.72 Nm
 - Rated output torque: 15 Nm
 
-The selected geared motor （Betriebsmotor） provides sufficient output torque for the preliminary design requirements.
+The selected geared motor （Betriebsmotor） provides sufficient output torque for the design requirements.
 
 ### 4.2 Belt Speed Verification
 
@@ -17,11 +17,9 @@ v = π × 0.08 × 75 / 60
 
 **v = 0.314 m/s**
 
-The deviation from the target speed is:
-
 (0.314 − 0.3) / 0.3 × 100% = **4.7%**
 
-The calculated belt speed is approximately 4.7% higher than the target speed.
+The calculated belt speed is 4.7% higher than the target speed.
 
 ### 4.3 Preliminary Evaluation
 
