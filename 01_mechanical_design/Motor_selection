@@ -21,12 +21,11 @@ The geared motor should meet the following criteria:
 - Motor power higher than the calculated design power
 - Output speed close to 72 rpm
 - Output torque higher than 3.72 Nm
-- Suitable gear ratio
-- Suitable mounting configuration for the conveyor
-- Sufficient service factor
+- Suitable gear ratio 传动比
+- Suitable mounting configuration for the conveyor 安装方式
+- Sufficient service factor 工况系数 = maximale zulässige Abtriebsdrehmoment/Abtriebsdrehmoment
 
 ## 3. Candidate 1 - SEW-EURODRIVE R Series
-One suitable configuration found in the SEW DriveConfigurator was:
 
 - Type: R07DRN63MS4
 - Rated motor power: 0.12 kW
