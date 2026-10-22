@@ -1,0 +1,32 @@
+## 4. Motor Verification
+
+### 4.1 Torque Verification
+
+- Preliminary design torque: 3.72 Nm
+- Rated output torque: 15 Nm
+
+The selected geared motor provides sufficient output torque for the preliminary design requirements.
+
+### 4.2 Belt Speed Verification
+
+The actual belt speed is calculated using:
+
+v = π × D × n / 60
+
+v = π × 0.08 × 75 / 60
+
+**v = 0.314 m/s**
+
+The deviation from the target speed is:
+
+(0.314 − 0.3) / 0.3 × 100% = **4.7%**
+
+The calculated belt speed is approximately 4.7% higher than the target speed.
+
+### 4.3 Preliminary Evaluation
+
+The SEW-EURODRIVE R07DRN63MS4 configuration meets the preliminary torque requirement.
+
+The calculated belt speed is close to the target value. Final acceptance depends on the specified speed tolerance.
+
+The final motor selection will also require verification of starting conditions, operating duty, mounting configuration and manufacturer requirements.
