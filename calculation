@@ -14,14 +14,55 @@ v = pi * D * n / 60
 
 n = 60 * 0.3 / (pi * 0.08)
 
-n = 71.6 rpm
+n = 71.6 rpm （72rpm）
 
-So the drive pulley should rotate at about 72 rpm.
+## Resistance force （阻力）
 
-## Next step
+Assumed friction coefficient: μ = 0.25
 
-Calculate:
-- resistance force 牵引力F（需要多少力，才能把输送带拉起来）
-- required torque 所需扭矩 T=F*r
-- motor power 电机功率P P=Fv
-- gear ratio 减速比
+Load friction: （摩擦阻力）
+
+F_load = μ * m * g 重力
+
+F_load = 0.25 * 20 * 9.81 = 49.05 N
+
+Belt friction: （摩擦阻力）
+
+F_belt = 3.62 N
+
+Total resistance force:
+
+F_total = 49.05 + 3.62 = 52.67 N
+
+
+## Required torque（扭矩）
+
+T = F_total * r
+
+T = 52.67 * 0.04
+
+T = 2.11 Nm
+
+
+## Required power （功率）
+
+P = F_total * v
+
+P = 52.67 * 0.3
+
+P = 15.80 W
+
+
+## Preliminary design values
+
+Assumed design factor: S = 1.5 （安全系数）
+
+Assumed transmission efficiency: η = 0.85 （传动效率）
+
+Design torque:
+
+T_design = 2.11 * 1.5 / 0.85 = 3.72 Nm
+
+Design power:
+
+P_design = 15.80 * 1.5 / 0.85 = 27.88 W
