@@ -1,6 +1,6 @@
 # Drive Pulley Design
 
-
+![Drive pulley force analysis](images/pulley_force_analysis.png)
 
 ## 1. Belt Tension Calculation
 
